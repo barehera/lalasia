@@ -4,12 +4,93 @@ import productImage1 from "../assets/product-1.png";
 import productImage2 from "../assets/product-2.png";
 import productImage3 from "../assets/product-3.png";
 import productImage4 from "../assets/product-4.png";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
 
 const PopularProductsSection = () => {
+  function SampleNextArrow({ onClick }) {
+    return (
+      <button
+        className="bg-black bg-opacity-50 h-12 w-12 rounded-full text-white flex items-center justify-center absolute top-1/2 right-6 -translate-y-1/2 hover:scale-110 transition-all duration-300 ease-out "
+        onClick={onClick}
+      >
+        <IoIosArrowForward size={24}></IoIosArrowForward>
+      </button>
+    );
+  }
+
+  function SamplePrevArrow({ onClick }) {
+    return (
+      <button
+        className="bg-black bg-opacity-50 h-12 w-12 rounded-full text-white flex items-center justify-center absolute top-1/2 left-6 z-50 -translate-y-1/2 hover:scale-110 transition-all duration-300 ease-out"
+        onClick={onClick}
+      >
+        <IoIosArrowBack size={24}></IoIosArrowBack>
+      </button>
+    );
+  }
+
+  const settings = {
+    initialSlide: 2,
+    infinite: false,
+    speed: 400,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    centerMode: true,
+    className: "center",
+
+    centerPadding: "350px",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1536,
+        settings: {
+          centerMode: true,
+          className: "center",
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerPadding: "120px",
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          centerMode: true,
+          className: "center",
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerPadding: "120px",
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: true,
+          className: "center",
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerPadding: "80px",
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          centerMode: true,
+          className: "center",
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerPadding: "40px",
+        },
+      },
+    ],
+  };
   return (
-    <section className="px-6 md:px-0 mt-24 lg:mt-44 mb-8 relative">
+    <section className=" mt-24 lg:mt-44 mb-8 relative">
       <article className="flex flex-col items-center justify-center text-center mb-12">
         <h6 className="text-secondary text-sm lg:text-lg font-bold mb-2">
           Product
@@ -22,55 +103,11 @@ const PopularProductsSection = () => {
           placerat nisi, adipiscing mauris non purus parturient.
         </p>
       </article>
-      <div className="flex justify-center  w-full">
-        <Carousel
-          additionalTransfrom={0}
-          arrows
-          centerMode={false}
-          className="p-0 m-0"
-          containerClass="container"
-          draggable
-          focusOnSelect={false}
-          infinite={false}
-          itemClass=""
-          keyBoardControl
-          minimumTouchDrag={80}
-          pauseOnHover
-          renderArrowsWhenDisabled={false}
-          renderButtonGroupOutside={false}
-          renderDotsOutside={false}
-          responsive={{
-            desktop: {
-              breakpoint: {
-                max: 3000,
-                min: 1440,
-              },
-              items: 4,
-            },
-            mobile: {
-              breakpoint: {
-                max: 780,
-                min: 0,
-              },
-              items: 1,
-            },
-            tablet: {
-              breakpoint: {
-                max: 1440,
-                min: 780,
-              },
-              items: 2,
-            },
-          }}
-          rewind={false}
-          rewindWithAnimation={false}
-          rtl={false}
-          shouldResetAutoplay
-          showDots={false}
-          sliderClass=""
-          slidesToSlide={1}
-          swipeable
-        >
+      <div
+        className="mx-auto max-w-full"
+        id="carousel-with-products-and-products-details"
+      >
+        <Slider {...settings}>
           <ProductCard
             image={productImage1}
             title="Wooden Bookshelf"
@@ -99,7 +136,8 @@ const PopularProductsSection = () => {
             desc="Using kapuk randu material"
             price="58.99"
           ></ProductCard>
-        </Carousel>
+          <div className="w-96"></div>
+        </Slider>
       </div>
     </section>
   );
