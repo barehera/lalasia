@@ -6,8 +6,8 @@ import Header from "./components/Header";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <div className="max-w-[120rem] mx-auto">
     <Header></Header>
     <App />
-  </React.StrictMode>
+  </div>
 );
