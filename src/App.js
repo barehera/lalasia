@@ -1,6 +1,8 @@
-import BenefitsSection from "./components/BenefitsSection";
-import HeroSection from "./components/HeroSection";
-import PopularProductsSection from "./components/PopularProductsSection";
+import BenefitsSection from "./components/Index/BenefitsSection";
+import HeroSection from "./components/Index/HeroSection";
+import PopularProductsSection from "./components//Index/PopularProductsSection";
+import ProductInfoSection from "./components/Index/ProductInfoSection";
+import TestimonialsSection from "./components/Index/TestimonialsSection";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <HeroSection></HeroSection>
       <BenefitsSection></BenefitsSection>
       <PopularProductsSection></PopularProductsSection>
+      <ProductInfoSection></ProductInfoSection>
+      <TestimonialsSection></TestimonialsSection>
     </main>
   );
 }

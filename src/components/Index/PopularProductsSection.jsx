@@ -1,9 +1,9 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-import productImage1 from "../assets/product-1.png";
-import productImage2 from "../assets/product-2.png";
-import productImage3 from "../assets/product-3.png";
-import productImage4 from "../assets/product-4.png";
+import productImage1 from "../../assets/product-1.png";
+import productImage2 from "../../assets/product-2.png";
+import productImage3 from "../../assets/product-3.png";
+import productImage4 from "../../assets/product-4.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -36,7 +36,7 @@ const PopularProductsSection = () => {
 
   const settings = {
     initialSlide: 2,
-    infinite: false,
+    infinite: true,
     speed: 400,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -98,7 +98,7 @@ const PopularProductsSection = () => {
         <h3 className="text-text text-2xl lg:text-5xl font-bold mb-4">
           Our Popular Products
         </h3>
-        <p className="text-paragraph text-sm lg:text-lg w-1/2">
+        <p className="text-paragraph text-sm lg:text-lg text-start lg:w-1/2 lg:text-center px-6 lg:px-0">
           Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim
           placerat nisi, adipiscing mauris non purus parturient.
         </p>
@@ -136,7 +136,6 @@ const PopularProductsSection = () => {
             desc="Using kapuk randu material"
             price="58.99"
           ></ProductCard>
-          <div className="w-96"></div>
         </Slider>
       </div>
     </section>

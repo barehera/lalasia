@@ -1,7 +1,7 @@
 import React from "react";
-import benefit1 from "../assets/icons/benefit-1.svg";
-import benefit2 from "../assets/icons/benefit-2.svg";
-import benefit3 from "../assets/icons/benefit-3.svg";
+import benefit1 from "../../assets/icons/benefit-1.svg";
+import benefit2 from "../../assets/icons/benefit-2.svg";
+import benefit3 from "../../assets/icons/benefit-3.svg";
 import BenefitCard from "./BenefitCard";
 const BenefitsSection = () => {
   return (

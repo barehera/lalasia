@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductCard = ({ image, title, desc, category, price }) => {
   return (
-    <article className="px-2 lg:px-4">
+    <article className="px-2 lg:px-4 hover:scale-105 p-6 transition-all  cursor-pointer duration-300">
       <img
         src={image}
         alt={desc}
