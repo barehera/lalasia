@@ -1,22 +1,15 @@
-import BenefitsSection from "./components/Index/BenefitsSection";
-import HeroSection from "./components/Index/HeroSection";
-import PopularProductsSection from "./components//Index/PopularProductsSection";
-import ProductInfoSection from "./components/Index/ProductInfoSection";
-import TestimonialsSection from "./components/Index/TestimonialsSection";
-import ArticlesSection from "./components/Index/ArticlesSection";
-import DiscountSection from "./components/Index/DiscountSection";
+import { Routes, Route } from "react-router-dom";
+import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <main>
-      <HeroSection></HeroSection>
-      <BenefitsSection></BenefitsSection>
-      <PopularProductsSection></PopularProductsSection>
-      <ProductInfoSection></ProductInfoSection>
-      <TestimonialsSection></TestimonialsSection>
-      <ArticlesSection></ArticlesSection>
-      <DiscountSection></DiscountSection>
-    </main>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<AboutUs />} />
+      </Routes>
+    </>
   );
 }
 

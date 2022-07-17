@@ -13,7 +13,7 @@ const HeroSection = () => {
         className="absolute hidden lg:block lg:left-auto lg:top-auto "
       />
       <article className="flex flex-col items-center justify-center my-12 lg:my-24 gap-7">
-        <h1 className="text-3xl lg:text-5xl flex flex-col  font-semibold text-center  max-w-xl">
+        <h1 className="text-3xl lg:text-5xl flex flex-col  font-bold text-center  max-w-xl">
           <span>Discover Furniture With</span>
           <span className="relative">
             High Quality Wood
