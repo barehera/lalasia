@@ -24,7 +24,7 @@ const OurTeam = () => {
           placerat nisi, adipiscing mauris non purus parturient.
         </p>
       </article>
-      <section className="grid lg:grid-cols-3 gap-7">
+      <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
         <TeamMemberCard
           name="Jesse Depp"
           role="Founder & CEO"
