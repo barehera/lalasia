@@ -19,14 +19,17 @@ const Header = () => {
 
       <nav className="lg:flex items-center justify-center hidden h-full">
         <ul className="flex items-center justify-center gap-10 h-full">
-          <li
-            className={`${
-              location.pathname === "/product"
-                ? " border-main text-main hover:border-secondary"
-                : " border-transparent text-text"
-            }  cursor-pointer border-b-4 flex items-center justify-center h-full text-lg hover:-skew-x-12 px-5 hover:bg-main hover:text-white   transition-all duration-500 ease-out`}
-          >
-            Product
+          <li className="h-full">
+            <Link
+              className={`${
+                location.pathname === "/product"
+                  ? " border-main text-main  hover:border-secondary"
+                  : " border-transparent text-text"
+              }  cursor-pointer border-b-4 flex items-center justify-center h-full  text-lg hover:-skew-x-12 px-5 hover:bg-main hover:text-white   transition-all duration-500 ease-out `}
+              to="/product"
+            >
+              Product
+            </Link>
           </li>
           <li
             className={`${
