@@ -10,9 +10,10 @@ https://www.figma.com/file/4W2LzJAtSrV04oq5E2RWRm/Lalasia---Furniture-Website-%5
 Converted Pages:
 - Home
 - About Us
+- Product Page
 
 Pages in Progress:
-- Product Page
+
 - Single Product Page
 - Services Page
 - Article Page
