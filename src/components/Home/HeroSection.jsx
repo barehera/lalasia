@@ -32,7 +32,7 @@ const HeroSection = () => {
         </p>
       </article>
       <article className="relative flex flex-col items-center justify-center">
-        <div className="lg:absolute -top-8 mb-7 lg:mb-0 flex items-center lg:w-2/3 bg-screen py-2 px-6 shadow-[0_4px_80px_rgba(175,173,181,0.3)]">
+        <div className=" lg:absolute -top-8 mb-7 lg:mb-0 flex items-center lg:w-2/3 bg-screen py-2 px-6 shadow-[0_4px_80px_rgba(175,173,181,0.3)]">
           <img src={searchIcon} alt="Search Icon" />
           <input
             type="text"

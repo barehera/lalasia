@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import productLargeBg from "../../assets/product-large-bg-desktop.png";
-
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import HeroSectionSliderCard from "./HeroSectionSliderCard";
@@ -37,7 +36,7 @@ const HeroSection = () => {
     dots: true,
     autoplay: true,
     autoplaySpeed: 5000,
-    speed: 5000,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: false,
