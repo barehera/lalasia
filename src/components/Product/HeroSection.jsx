@@ -46,7 +46,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="mt-24 lg:mt-44">
+    <section className="mt-24 lg:mt-24">
       <article className="flex flex-col items-center justify-center text-center mb-7 lg:mb-12 px-6 lg:px-24">
         <h1 className="text-text text-2xl lg:text-5xl font-bold mb-5">
           Products

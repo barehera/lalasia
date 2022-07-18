@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="px-6 lg:px-24 mt-24 lg:mt-24">
       <article className="flex flex-col items-center justify-center">
-        <h1 className="text-text text-2xl lg:text-6xl font-bold mb-5">
+        <h1 className="text-text text-2xl lg:text-5xl font-bold mb-5">
           About Us
         </h1>
         <p className="text-paragraph text-sm lg:text-lg mb-7 lg:mb-12 lg:w-1/2 text-center">
@@ -15,7 +15,7 @@ const HeroSection = () => {
         <img
           src={aboutUsMain}
           alt="About Us video"
-          className="h-[300px] lg:h-[550px] w-full object-fill"
+          className="h-[150px] md:h-[250px] lg:h-[550px] w-full object-fill"
         />
       </article>
     </section>

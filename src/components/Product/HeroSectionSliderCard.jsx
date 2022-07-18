@@ -6,7 +6,7 @@ const HeroSectionSliderCard = ({ image }) => {
       <img
         src={image}
         alt="Product"
-        className="w-full h-[200px] lg:h-[500px]"
+        className="w-full h-[200px] md:h-[300px] lg:h-[500px]"
       />
       <div className="absolute bottom-0 p-6 lg:p-36 flex flex-col  justify-center">
         <button className="p-2 w-28 lg:w-36 bg-main text-sm lg:text-lg rounded-full text-white mb-4">

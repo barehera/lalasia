@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex justify-between lg:justify-end lg:gap-14 xl:gap-28">
-          <navbar>
+          <div>
             <h6 className="text-text text-base lg:text-xl font-bold mb-3">
               Product
             </h6>
@@ -36,8 +36,8 @@ const Footer = () => {
                 </li>
               </ul>
             </nav>
-          </navbar>
-          <navbar>
+          </div>
+          <div>
             <h6 className="text-text text-base lg:text-xl font-bold mb-3">
               Services
             </h6>
@@ -53,8 +53,8 @@ const Footer = () => {
                 </li>
               </ul>
             </nav>
-          </navbar>
-          <navbar>
+          </div>
+          <div>
             <h6 className="text-text text-base lg:text-xl font-bold mb-3">
               Follow Us
             </h6>
@@ -71,7 +71,7 @@ const Footer = () => {
                 </li>
               </ul>
             </nav>
-          </navbar>
+          </div>
         </div>
       </div>
     </footer>

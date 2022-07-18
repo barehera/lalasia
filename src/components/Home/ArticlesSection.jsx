@@ -12,7 +12,7 @@ import ArticleSliderCard from "./ArticleSliderCard";
 const ArticlesSection = () => {
   return (
     <section className="px-6 lg:px-24 mt-24 lg:mt-44">
-      <div className="grid lg:grid-cols-2 gap-7 items-end">
+      <div className="grid  xl:grid-cols-2 gap-7 items-end">
         <div>
           <article>
             <h5 className="text-secondary text-sm lg:text-lg font-bold mb-3">
