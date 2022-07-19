@@ -14,7 +14,6 @@ Converted Pages:
 
 Pages in Progress:
 
-- Mobile Navbar
 - Single Product Page
 - Services Page
 - Article Page
