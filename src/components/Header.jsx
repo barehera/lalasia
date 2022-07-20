@@ -84,7 +84,7 @@ const Header = () => {
               src={menuIcon}
               alt="Menu Icon"
               onClick={() => setOpen(true)}
-              className=" cursor-pointer w-8 hidden lg:block"
+              className="cursor-pointer w-8 hidden lg:block"
             />
           </>
         ) : (
