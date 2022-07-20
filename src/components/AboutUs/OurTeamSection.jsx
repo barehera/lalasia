@@ -51,9 +51,9 @@ const OurTeam = () => {
           image={member5}
         ></TeamMemberCard>
         <TeamMemberCard
-          name="Joseph Canada"
-          role="Marketer"
-          image={member6}
+          name="Çağan Büyükavcılar"
+          role="Developer"
+          image={member7}
         ></TeamMemberCard>
       </section>
     </section>
