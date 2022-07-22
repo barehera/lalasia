@@ -44,14 +44,17 @@ const Header = () => {
                 Services
               </Link>
             </li>
-            <li
-              className={`${
-                location.pathname === "/article"
-                  ? " border-main text-main  hover:border-secondary"
-                  : " border-transparent text-text"
-              }  cursor-pointer border-b-4 flex items-center justify-center h-full  text-lg hover:-skew-x-12 px-5 hover:bg-main hover:text-white   transition-all duration-500 ease-out`}
-            >
-              Article
+            <li className="h-full">
+              <Link
+                className={`${
+                  location.pathname === "/article"
+                    ? " border-main text-main  hover:border-secondary"
+                    : " border-transparent text-text"
+                }  cursor-pointer border-b-4 flex items-center justify-center h-full  text-lg hover:-skew-x-12 px-5 hover:bg-main hover:text-white   transition-all duration-500 ease-out `}
+                to="/article"
+              >
+                Article
+              </Link>
             </li>
             <li className="h-full">
               <Link
@@ -127,14 +130,18 @@ const Header = () => {
                 Services
               </Link>
             </li>
-            <li
-              className={`${
-                location.pathname === "/article"
-                  ? " bg-main text-white font-bold"
-                  : " border-transparent text-black font-semibold"
-              }  cursor-pointer  flex items-center justify-center h-full w-full  text-sm px-3 hover:bg-main hover:text-white   transition-all duration-500 ease-out`}
-            >
-              Article
+
+            <li className="h-full w-full">
+              <Link
+                className={`${
+                  location.pathname === "/article"
+                    ? " bg-main text-white font-bold"
+                    : " border-transparent text-black font-semibold"
+                }  cursor-pointer  flex items-center justify-center h-full  text-sm px-3 hover:bg-main hover:text-white   transition-all duration-500 ease-out `}
+                to="/article"
+              >
+                Article
+              </Link>
             </li>
             <li className="h-full w-full">
               <Link
