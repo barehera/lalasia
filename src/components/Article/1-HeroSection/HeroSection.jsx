@@ -3,7 +3,7 @@ import articleMain from "../../../assets/article-main.png";
 import articleUser from "../../../assets/article-user-1.png";
 const HeroSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <section className="px-6 lg:px-24 mt-24 lg:mt-24">
       <article className="flex flex-col items-center justify-center text-center">
         <h1 className="text-text text-2xl lg:text-5xl font-bold mb-5">
           Article

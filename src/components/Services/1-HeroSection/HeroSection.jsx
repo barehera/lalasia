@@ -2,7 +2,7 @@ import React from "react";
 import mainImage from "../../../assets/services-main.png";
 const HeroSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <section className="px-6 lg:px-24 mt-24 lg:mt-24">
       <article className="flex flex-col text-center items-center justify-center">
         <h1 className="text-text text-2xl lg:text-5xl font-bold mb-5">
           Services
