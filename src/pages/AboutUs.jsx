@@ -10,7 +10,7 @@ const AboutUs = () => {
   return (
     <>
       <Header></Header>
-      <main>
+      <main className="max-w-[120rem] mx-auto">
         <HeroSection></HeroSection>
         <OurMissionSection></OurMissionSection>
         <OurTeamSection></OurTeamSection>

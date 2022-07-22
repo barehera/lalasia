@@ -10,7 +10,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <header className="px-6 lg:px-24 flex items-center justify-between text-text shadow-md h-[72px] lg:h-[120px] ">
+      <header className="px-6 lg:px-24 flex items-center justify-between text-text shadow-md h-[72px] lg:h-[120px] max-w-[120rem] mx-auto">
         <Link to="/">
           <div className="flex gap-3 items-center justify-center cursor-pointer hover:scale-110 transition-all duration-500 ease-out">
             <img src={logo} alt="Logo" className="h-11 w-11" />
@@ -115,14 +115,17 @@ const Header = () => {
                 Product
               </Link>
             </li>
-            <li
-              className={`${
-                location.pathname === "/services"
-                  ? " bg-main text-white font-bold"
-                  : " border-transparent text-black font-semibold"
-              }  cursor-pointer  flex items-center justify-center h-full w-full  text-sm px-3 hover:bg-main hover:text-white   transition-all duration-500 ease-out`}
-            >
-              Services
+            <li className="h-full w-full">
+              <Link
+                className={`${
+                  location.pathname === "/services"
+                    ? " bg-main text-white font-bold"
+                    : " border-transparent text-black font-semibold"
+                }  cursor-pointer  flex items-center justify-center h-full  text-sm px-3 hover:bg-main hover:text-white   transition-all duration-500 ease-out `}
+                to="/services"
+              >
+                Services
+              </Link>
             </li>
             <li
               className={`${

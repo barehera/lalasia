@@ -15,7 +15,7 @@ const HeroSection = () => {
         <img
           src={aboutUsMain}
           alt="About Us video"
-          className="h-[150px] md:h-[250px] lg:h-[550px] w-full object-fill"
+          className="h-[150px] md:h-[250px] lg:h-[550px] w-full object-cover"
         />
       </article>
     </section>

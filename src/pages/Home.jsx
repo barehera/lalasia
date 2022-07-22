@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Header></Header>
-      <main>
+      <main className="max-w-[120rem] mx-auto">
         <HeroSection></HeroSection>
         <BenefitsSection></BenefitsSection>
         <PopularProductsSection></PopularProductsSection>
