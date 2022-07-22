@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import productLargeBg from "../../assets/product-large-bg-desktop.png";
+import productLargeBg from "../../../assets/product-large-bg-desktop.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
-import HeroSectionSliderCard from "./HeroSectionSliderCard";
+import HeroSectionSliderCard from "./UI/HeroSectionSliderCard";
 
 const HeroSection = () => {
   function SampleNextArrow({ onClick }) {

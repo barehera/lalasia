@@ -1,8 +1,8 @@
 import React from "react";
-import HeroSection from "../components/AboutUs/HeroSection";
-import OurMissionSection from "../components/AboutUs/OurMissionSection";
-import OurTeamSection from "../components/AboutUs/OurTeamSection";
-import WorkWithUsSection from "../components/AboutUs/WorkWithUsSection";
+import HeroSection from "../components/AboutUs/1-HeroSection/HeroSection";
+import OurMissionSection from "../components/AboutUs/2-OurMissionSection/OurMissionSection";
+import OurTeamSection from "../components/AboutUs/3-OurTeamSection/OurTeamSection";
+import WorkWithUsSection from "../components/AboutUs/4-WorkWithUsSection/WorkWithUsSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 

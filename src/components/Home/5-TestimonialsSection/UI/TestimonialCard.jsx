@@ -1,6 +1,6 @@
 import React from "react";
-import quoteIcon from "../../assets/icons/quote.svg";
-import starIcon from "../../assets/icons/star.svg";
+import quoteIcon from "../../../../assets/icons/quote.svg";
+import starIcon from "../../../../assets/icons/star.svg";
 
 const TestimonialCard = ({ comment, profileImage, name, rate }) => {
   return (

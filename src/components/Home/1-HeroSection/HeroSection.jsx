@@ -1,8 +1,8 @@
 import React from "react";
-import mainImage from "../../assets/hero-section-main-image.png";
-import searchIcon from "../../assets//icons/search.svg";
-import arrowIcon from "../../assets/icons/hero-section-arrow.svg";
-import titleIcon from "../../assets/icons/hero-section-title-icon.svg";
+import mainImage from "../../../assets/hero-section-main-image.png";
+import searchIcon from "../../../assets//icons/search.svg";
+import arrowIcon from "../../../assets/icons/hero-section-arrow.svg";
+import titleIcon from "../../../assets/icons/hero-section-title-icon.svg";
 
 const HeroSection = () => {
   return (

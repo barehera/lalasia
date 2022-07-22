@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
-import TestimonialCard from "./TestimonialCard";
-import user2 from "../../assets/testimonial-user-2.png";
-import user1 from "../../assets/testimonial-user-1.png";
+import TestimonialCard from "./UI/TestimonialCard";
+import user2 from "../../../assets/testimonial-user-2.png";
+import user1 from "../../../assets/testimonial-user-1.png";
 
 const TestimonialsSection = () => {
   function SampleNextArrow({ onClick }) {

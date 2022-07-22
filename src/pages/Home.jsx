@@ -1,11 +1,12 @@
 import React from "react";
-import BenefitsSection from "../components/Home/BenefitsSection";
-import HeroSection from "../components/Home/HeroSection";
-import PopularProductsSection from "../components/Home/PopularProductsSection";
-import ProductInfoSection from "../components/Home/ProductInfoSection";
-import TestimonialsSection from "../components/Home/TestimonialsSection";
-import ArticlesSection from "../components/Home/ArticlesSection";
-import DiscountSection from "../components/Home/DiscountSection";
+
+import HeroSection from "../components/Home/1-HeroSection/HeroSection";
+import BenefitsSection from "../components/Home/2-BenefitsSection/BenefitsSection";
+import PopularProductsSection from "../components/Home/3-PopularProductsSection/PopularProductsSection";
+import ProductInfoSection from "../components/Home/4-ProductInfoSection/ProductInfoSection";
+import TestimonialsSection from "../components/Home/5-TestimonialsSection/TestimonialsSection";
+import ArticlesSection from "../components/Home/6-ArticlesSection/ArticlesSection";
+import DiscountSection from "../components/Home/7-DiscountSection/DiscountSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 

@@ -1,14 +1,14 @@
 import React from "react";
 
-import ProductCard from "../Product/ProductCard";
-import productImage1 from "../../assets/product-1.png";
-import productImage2 from "../../assets/product-2.png";
-import productImage3 from "../../assets/product-3.png";
-import productImage4 from "../../assets/product-4.png";
-import productImage5 from "../../assets/product-5.png";
-import productImage6 from "../../assets/product-6.png";
-import Pagination from "./Pagination";
-import Search from "./Search";
+import productImage1 from "../../../assets/product-1.png";
+import productImage2 from "../../../assets/product-2.png";
+import productImage3 from "../../../assets/product-3.png";
+import productImage4 from "../../../assets/product-4.png";
+import productImage5 from "../../../assets/product-5.png";
+import productImage6 from "../../../assets/product-6.png";
+import ProductCard from "./UI/ProductCard";
+import Pagination from "./UI/Pagination";
+import Search from "./UI/Search";
 const ProductsSection = () => {
   return (
     <section>

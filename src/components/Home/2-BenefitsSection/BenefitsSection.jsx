@@ -1,8 +1,8 @@
 import React from "react";
-import benefit1 from "../../assets/icons/benefit-1.svg";
-import benefit2 from "../../assets/icons/benefit-2.svg";
-import benefit3 from "../../assets/icons/benefit-3.svg";
-import BenefitCard from "./BenefitCard";
+import benefit1 from "../../../assets/icons/benefit-1.svg";
+import benefit2 from "../../../assets/icons/benefit-2.svg";
+import benefit3 from "../../../assets/icons/benefit-3.svg";
+import BenefitCard from "./UI/BenefitCard";
 const BenefitsSection = () => {
   return (
     <section className="px-6 lg:px-24 mt-24 lg:mt-44">

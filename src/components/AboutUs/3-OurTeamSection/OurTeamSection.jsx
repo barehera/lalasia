@@ -1,11 +1,11 @@
 import React from "react";
-import TeamMemberCard from "./TeamMemberCard";
-import member1 from "../../assets/member-1.png";
-import member2 from "../../assets/member-2.png";
-import member3 from "../../assets/member-3.png";
-import member4 from "../../assets/member-4.png";
-import member5 from "../../assets/member-5.png";
-import member6 from "../../assets/member-6.png";
+import TeamMemberCard from "./UI/TeamMemberCard";
+import member1 from "../../../assets/member-1.png";
+import member2 from "../../../assets/member-2.png";
+import member3 from "../../../assets/member-3.png";
+import member4 from "../../../assets/member-4.png";
+import member5 from "../../../assets/member-5.png";
+import member6 from "../../../assets/member-6.png";
 
 const OurTeam = () => {
   return (

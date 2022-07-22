@@ -11,50 +11,34 @@ const Pagination = () => {
             className="relative z-0 inline-flex rounded-md shadow-sm -space-x-px"
             aria-label="Pagination"
           >
-            <a
-              href="#"
-              className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-100 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
-            >
+            <div className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-100 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
               <span className="sr-only">Previous</span>
               <IoIosArrowBack className="h-5 w-5" aria-hidden="true" />
-            </a>
+            </div>
             {/* Current: "z-10 bg-indigo-50 border-indigo-500 text-indigo-600", Default: "bg-white border-gray-100 text-gray-500 hover:bg-gray-50" */}
-            <a
-              href="#"
+            <div
               aria-current="page"
               className="z-10 bg-main text-white  relative inline-flex items-center px-4 py-2 border text-sm font-medium"
             >
               1
-            </a>
-            <a
-              href="#"
-              className="bg-white border-gray-100 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium"
-            >
+            </div>
+            <div className="bg-white border-gray-100 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
               2
-            </a>
-            <a
-              href="#"
-              className="bg-white border-gray-100 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center px-4 py-2 border text-sm font-medium"
-            >
+            </div>
+            <div className="bg-white border-gray-100 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center px-4 py-2 border text-sm font-medium">
               3
-            </a>
+            </div>
             <span className="relative inline-flex items-center px-4 py-2 border border-gray-100 bg-white text-sm font-medium text-gray-700">
               ...
             </span>
 
-            <a
-              href="#"
-              className="bg-white border-gray-100 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium"
-            >
+            <div className="bg-white border-gray-100 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
               10
-            </a>
-            <a
-              href="#"
-              className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-100 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
-            >
+            </div>
+            <div className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-100 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
               <span className="sr-only">Next</span>
               <IoIosArrowForward className="h-5 w-5" aria-hidden="true" />
-            </a>
+            </div>
           </nav>
         </div>
       </div>

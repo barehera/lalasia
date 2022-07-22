@@ -1,6 +1,6 @@
 import React from "react";
-import ProductImage1 from "../../assets/product-info-1.png";
-import ProductImage2 from "../../assets/product-info-2.png";
+import ProductImage1 from "../../../assets/product-info-1.png";
+import ProductImage2 from "../../../assets/product-info-2.png";
 
 const ProductInfoSection = () => {
   return (

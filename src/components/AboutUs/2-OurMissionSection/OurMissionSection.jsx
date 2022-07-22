@@ -1,8 +1,8 @@
 import React from "react";
-import MissionCard from "./MissionCard";
-import mission1 from "../../assets/icons/mission-1.svg";
-import mission2 from "../../assets/icons/mission-2.svg";
-import mission3 from "../../assets/icons/mission-3.svg";
+import MissionCard from "./UI/MissionCard";
+import mission1 from "../../../assets/icons/mission-1.svg";
+import mission2 from "../../../assets/icons/mission-2.svg";
+import mission3 from "../../../assets/icons/mission-3.svg";
 
 const OurMissionSection = () => {
   return (

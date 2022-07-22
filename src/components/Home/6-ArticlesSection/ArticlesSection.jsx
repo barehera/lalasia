@@ -1,13 +1,13 @@
 import React from "react";
-import ArticleUserCard from "./ArticleUserCard";
-import article1 from "../../assets/article-1.png";
-import article2 from "../../assets/article-2.png";
-import article3 from "../../assets/article-3.png";
-import article4 from "../../assets/article-4.png";
-import articleUser1 from "../../assets/article-user-1.png";
-import articleUser2 from "../../assets/article-user-2.png";
-import articleUser3 from "../../assets/article-user-3.png";
-import ArticleSliderCard from "./ArticleSliderCard";
+import article1 from "../../../assets/article-1.png";
+import article2 from "../../../assets/article-2.png";
+import article3 from "../../../assets/article-3.png";
+import article4 from "../../../assets/article-4.png";
+import articleUser1 from "../../../assets/article-user-1.png";
+import articleUser2 from "../../../assets/article-user-2.png";
+import articleUser3 from "../../../assets/article-user-3.png";
+import ArticleUserCard from "./UI/ArticleUserCard";
+import ArticleSliderCard from "./UI/ArticleSliderCard";
 
 const ArticlesSection = () => {
   return (

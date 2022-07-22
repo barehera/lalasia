@@ -1,9 +1,9 @@
 import React from "react";
-import ProductCard from "./ProductCard";
-import productImage1 from "../../assets/product-1.png";
-import productImage2 from "../../assets/product-2.png";
-import productImage3 from "../../assets/product-3.png";
-import productImage4 from "../../assets/product-4.png";
+import ProductCard from "./UI/ProductCard";
+import productImage1 from "../../../assets/product-1.png";
+import productImage2 from "../../../assets/product-2.png";
+import productImage3 from "../../../assets/product-3.png";
+import productImage4 from "../../../assets/product-4.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

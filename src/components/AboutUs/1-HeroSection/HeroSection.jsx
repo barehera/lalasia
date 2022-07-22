@@ -1,5 +1,5 @@
 import React from "react";
-import aboutUsMain from "../../assets/about-us-main.png";
+import aboutUsMain from "../../../assets/about-us-main.png";
 
 const HeroSection = () => {
   return (
