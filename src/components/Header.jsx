@@ -32,14 +32,17 @@ const Header = () => {
                 Product
               </Link>
             </li>
-            <li
-              className={`${
-                location.pathname === "/services"
-                  ? " border-main text-main  hover:border-secondary"
-                  : " border-transparent text-text"
-              }  cursor-pointer border-b-4 flex items-center justify-center h-full  text-lg hover:-skew-x-12 px-5 hover:bg-main hover:text-white   transition-all duration-500 ease-out`}
-            >
-              Services
+            <li className="h-full">
+              <Link
+                className={`${
+                  location.pathname === "/services"
+                    ? " border-main text-main  hover:border-secondary"
+                    : " border-transparent text-text"
+                }  cursor-pointer border-b-4 flex items-center justify-center h-full  text-lg hover:-skew-x-12 px-5 hover:bg-main hover:text-white   transition-all duration-500 ease-out `}
+                to="/services"
+              >
+                Services
+              </Link>
             </li>
             <li
               className={`${
