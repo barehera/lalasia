@@ -11,10 +11,10 @@ Converted Pages:
 - Home
 - About Us
 - Product Page
+- Services Page
 
 Pages in Progress:
 
 - Single Product Page
-- Services Page
 - Article Page
 - Single Article Page
