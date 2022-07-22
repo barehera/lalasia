@@ -11,7 +11,7 @@ const HeroSection = () => {
   function SampleNextArrow({ onClick }) {
     return (
       <button
-        className="bg-black bg-opacity-50 h-12 w-12 rounded-full text-white flex items-center justify-center absolute top-1/2 right-6 -translate-y-1/2 hover:scale-110 transition-all duration-300 ease-out "
+        className="bg-black hidden bg-opacity-50 h-12 w-12 rounded-full text-white  items-center justify-center absolute top-1/2 right-6 -translate-y-1/2 hover:scale-110 transition-all duration-300 ease-out "
         onClick={onClick}
       >
         <IoIosArrowForward size={24}></IoIosArrowForward>
@@ -22,7 +22,7 @@ const HeroSection = () => {
   function SamplePrevArrow({ onClick }) {
     return (
       <button
-        className="bg-black bg-opacity-50 h-12 w-12 rounded-full text-white flex items-center justify-center absolute top-1/2 left-6 z-50 -translate-y-1/2 hover:scale-110 transition-all duration-300 ease-out"
+        className="bg-black hidden bg-opacity-50 h-12 w-12 rounded-full text-white  items-center justify-center absolute top-1/2 left-6 z-50 -translate-y-1/2 hover:scale-110 transition-all duration-300 ease-out"
         onClick={onClick}
       >
         <IoIosArrowBack size={24}></IoIosArrowBack>

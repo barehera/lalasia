@@ -12,7 +12,7 @@ const Search = () => {
           className="flex-1 p-1 lg:p-4 focus:border-none focus:outline-none placeholder:text-sm lg:placeholder:text-lg"
           placeholder="Search property"
         />
-        <button className="text-white font-semibold bg-main p-2 text-xs lg:text-lg">
+        <button className="text-white font-semibold bg-main p-2 text-xs lg:text-lg lg:w-36">
           Search
         </button>
       </div>

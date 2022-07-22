@@ -6,7 +6,7 @@ const ProductInfoSection = () => {
   return (
     <section className="px-6 lg:px-24 mt-24 lg:mt-44">
       <article>
-        <div className="grid lg:grid-cols-2 justify-end items-end mb-4 lg:mb-12">
+        <div className="grid lg:grid-cols-2 items-end mb-4 lg:mb-12">
           {/*Title */}
           <div className="flex flex-col" id="title">
             <h5 className="text-secondary text-sm lg:text-lg font-bold mb-2 lg:mb-4">
@@ -32,8 +32,8 @@ const ProductInfoSection = () => {
             </article>
           </div>
         </div>
-        <div className="grid lg:grid-cols-2 lg:gap-7">
-          <div className="flex flex-col lg:justify-end">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-7">
+          <div className="flex flex-col  relative">
             <p className="text-paragraph text-sm lg:text-lg mb-7 lg:mb-12">
               Pellentesque etiam blandit in tincidunt at donec. Eget ipsum
               dignissim placerat nisi, adipiscing mauris non purus parturient.
@@ -57,19 +57,20 @@ const ProductInfoSection = () => {
                 <p className="text-paragraph text-sm">Project Finished</p>
               </article>
             </div>
-            <img
-              src={ProductImage1}
-              alt="Product"
-              className="w-full h-52  lg:w-auto lg:h-auto mb-5 lg:mb-0"
-            />
+            <div className="w-full h-full flex items-end">
+              <img
+                src={ProductImage1}
+                alt="Product"
+                className="w-full h-80 lg:h-60 xl:h-96  mb-5 lg:mb-0"
+              />
+            </div>
           </div>
-          <div className="flex justify-end ">
-            <img
-              src={ProductImage2}
-              alt="Product"
-              className="w-full h-52  lg:w-auto lg:h-auto "
-            />
-          </div>
+
+          <img
+            src={ProductImage2}
+            alt="Product"
+            className="w-full lg:h-full h-80 "
+          />
         </div>
       </article>
     </section>
