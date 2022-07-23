@@ -13,8 +13,8 @@ Converted Pages:
 - Product Page (18.07.2022)
 - Services Page (22.07.2022)
 - Article Page (22.07.2022)
+- Single Product Page (23.07.2022)
 
 Pages in Progress:
 
-- Single Product Page
 - Single Article Page
