@@ -4,7 +4,10 @@ import { useNavigate } from "react-router-dom";
 const ArticleSliderCard = ({ image, category, title, text, id }) => {
   const navigate = useNavigate();
   return (
-    <section className="relative" onClick={() => navigate(`/article/${id}`)}>
+    <section
+      className="relative hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
+      onClick={() => navigate(`/article/example-article`)}
+    >
       <div className="relative">
         <img
           src={image}

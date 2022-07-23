@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ArticleUserCard = ({
   category,
@@ -9,8 +10,13 @@ const ArticleUserCard = ({
   name,
   date,
 }) => {
+  const navigate = useNavigate();
+
   return (
-    <article className="flex items-center  gap-3 lg:gap-7 ">
+    <article
+      className="flex items-center  gap-3 lg:gap-7 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
+      onClick={() => navigate(`/article/example-article`)}
+    >
       <img
         src={image}
         alt={category}

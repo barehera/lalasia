@@ -1,8 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ArticleCard = ({ article }) => {
+  const navigate = useNavigate();
   return (
-    <article className="flex items-center gap-2 lg:gap-6 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer">
+    <article
+      onClick={() => navigate("/article/example-article")}
+      className="flex items-center gap-2 lg:gap-6 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
+    >
       <img
         src={article.image}
         alt="Article"

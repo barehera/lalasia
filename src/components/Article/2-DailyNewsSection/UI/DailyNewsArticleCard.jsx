@@ -1,10 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const DailyNewsArticleCard = ({ article }) => {
+  const navigate = useNavigate();
   const { image, category, title, text, creatorName, creatorImage, date } =
     article;
   return (
-    <article className="hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer">
+    <article
+      className="hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
+      onClick={() => navigate("/article/example-article")}
+    >
       <img
         src={image}
         alt="Daily New Articles"
