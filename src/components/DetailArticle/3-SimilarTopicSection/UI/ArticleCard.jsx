@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ArticleCard = ({
   image,
@@ -9,8 +10,15 @@ const ArticleCard = ({
   creatorName,
   date,
 }) => {
+  const navigate = useNavigate();
   return (
-    <article className="hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer">
+    <article
+      className="hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
+      onClick={() => {
+        navigate("/article/example-article");
+        window.scrollTo(0, 0);
+      }}
+    >
       <img
         src={image}
         alt="Article"
