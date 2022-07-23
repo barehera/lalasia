@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import ProductInfo from "../components/DetailProduct/1-ProductInfo/ProductInfo";
-import RelatedItems from "../components/DetailProduct/RelatedItemsSection/RelatedItems";
+import RelatedItems from "../components/DetailProduct/2-RelatedItemsSection/RelatedItems";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 

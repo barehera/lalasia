@@ -2,7 +2,7 @@ import React from "react";
 
 const ArticleCard = ({ article }) => {
   return (
-    <article className="flex items-center gap-2 lg:gap-6">
+    <article className="flex items-center gap-2 lg:gap-6 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer">
       <img
         src={article.image}
         alt="Article"

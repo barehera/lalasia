@@ -26,6 +26,7 @@ const ArticlesSection = () => {
             </p>
 
             <ArticleSliderCard
+              id={"1"}
               image={article4}
               category="Tips and Trick"
               title="Create Cozy Dinning Room Vibes"

@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-const ArticleSliderCard = ({ image, category, title, text }) => {
+const ArticleSliderCard = ({ image, category, title, text, id }) => {
+  const navigate = useNavigate();
   return (
-    <section className="relative">
+    <section className="relative" onClick={() => navigate(`/article/${id}`)}>
       <div className="relative">
         <img
           src={image}

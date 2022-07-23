@@ -1,21 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import productImage from "../../../assets/product-2.png";
+import { productData } from "../../../data/productData";
 
 const ProductInfo = () => {
+  const [product, setProduct] = useState([]);
+  const [productId, setProductId] = useState("");
+  const a = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [a]);
+
   return (
     <section className="px-6 lg:px-24 mt-24">
       <article className="grid lg:grid-cols-2 gap-12">
         <img
-          src={productImage}
+          src={productData[a.pathname.split("/")[2]].image}
           alt="Product"
           className="w-full h-[330px] md:h-[450px] lg:h-[600px] object-cover"
         />
         <div className="flex flex-col justify-center">
           <h2 className="text-text text-2xl lg:text-5xl font-bold mb-2">
-            White Aesthetic Chair
+            {productData[a.pathname.split("/")[2]].title}
           </h2>
           <p className="text-paragraph text-lg mb-7">
-            Combination of wood and wool
+            {productData[a.pathname.split("/")[2]].desc}
           </p>
           <h5 className="text-text text-sm lg:text-lg font-bold mb-2 lg:mb-5">
             Color
@@ -33,7 +43,7 @@ const ProductInfo = () => {
             <b className="text-main">Read More</b>
           </p>
           <h3 className="text-text text-2xl lg:text-5xl font-bold mb-12">
-            $99.99
+            ${productData[a.pathname.split("/")[2]].price}
           </h3>
           <div className="flex flex-col lg:flex-row gap-7">
             <button className="w-full bg-main h-14 text-white  text-base lg:text-lg font-bold">

@@ -1,15 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const RelatedItemCard = ({ relatedItem }) => {
+  const navigate = useNavigate();
   return (
     <article
       className=" hover:scale-105 transition-all cursor-pointer duration-300"
-      onClick={() => window.scrollTo(0, 0)}
+      onClick={() => navigate(`/product/${relatedItem.id}`)}
     >
       <img
         src={relatedItem.image}
         alt="Product"
-        className="w-full h-52 lg:h-60 xl:h-80 mb-2 lg:mb-6"
+        className="w-full h-52 lg:h-60 xl:h-80 mb-2 lg:mb-6 object-cover"
       />
       <p className="text-paragraph text-xs lg:text-lg font-bold mb-3">
         {relatedItem.category}

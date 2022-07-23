@@ -4,7 +4,7 @@ const DailyNewsArticleCard = ({ article }) => {
   const { image, category, title, text, creatorName, creatorImage, date } =
     article;
   return (
-    <article>
+    <article className="hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer">
       <img
         src={image}
         alt="Daily New Articles"

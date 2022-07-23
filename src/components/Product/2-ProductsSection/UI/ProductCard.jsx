@@ -1,12 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const ProductCard = ({ image, title, desc, category, price }) => {
+const ProductCard = ({ id, image, title, desc, category, price }) => {
   const navigate = useNavigate();
   return (
     <article
       className="hover:scale-105  transition-all  cursor-pointer duration-300"
-      onClick={() => navigate("/example-product")}
+      onClick={() => navigate(`/product/${id}`)}
     >
       <img
         src={image}
