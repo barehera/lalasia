@@ -1,10 +1,10 @@
 Project Start Date:
 15.07.2022
 
-Link:
+Website Link:
 https://lalasia.vercel.app/
 
-Figma Link:
+Figma Layout Link:
 https://www.figma.com/file/4W2LzJAtSrV04oq5E2RWRm/Lalasia---Furniture-Website-%5BFreebie%5D-(Community)?node-id=0%3A1
 
 Converted Pages:
@@ -14,7 +14,7 @@ Converted Pages:
 - Services Page (22.07.2022)
 - Article Page (22.07.2022)
 - Single Product Page (23.07.2022)
+- Single Article Page (24.07.2022)
 
-Pages in Progress:
-
-- Single Article Page
+Project Finish Date:
+24.07.2022
