@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import productImage from "../../../assets/product-2.png";
 import { productData } from "../../../data/productData";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const ProductInfo = () => {
   const [product, setProduct] = useState([]);
@@ -13,7 +14,7 @@ const ProductInfo = () => {
   }, [a]);
 
   return (
-    <section className="px-6 lg:px-24 mt-24">
+    <SectionLayout x={true} y={true}>
       <article className="grid lg:grid-cols-2 gap-12">
         <img
           src={productData[a.pathname.split("/")[2]].image}
@@ -55,7 +56,7 @@ const ProductInfo = () => {
           </div>
         </div>
       </article>
-    </section>
+    </SectionLayout>
   );
 };
 

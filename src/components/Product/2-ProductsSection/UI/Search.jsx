@@ -4,7 +4,7 @@ import React from "react";
 
 const Search = () => {
   return (
-    <div className="px-6 lg:px-24 my-12 lg:my-24 lg:flex lg:items-center lg:gap-5">
+    <div className="mb-12 lg:mb-24 lg:flex lg:items-center lg:gap-5">
       <div className="flex items-center  w-full px-4  lg:px-6  bg-screen py-2 shadow-[0_4px_80px_rgba(175,173,181,0.3)]">
         <img src={searchIcon} alt="Search Icon" className="w-6 h-6" />
         <input

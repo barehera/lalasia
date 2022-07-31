@@ -2,10 +2,11 @@ import React from "react";
 import portfolio1 from "../../../assets/portfolio-1.png";
 import portfolio2 from "../../../assets/portfolio-2.png";
 import portfolio3 from "../../../assets/portfolio-3.png";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const PortfolioSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <article className="grid lg:grid-cols-2 gap-4 lg:gap-7 mb-12 items-end">
         <div className="2xl:w-2/3">
           <h5 className="text-secondary text-sm lg:text-lg font-bold mb-2">
@@ -87,7 +88,7 @@ const PortfolioSection = () => {
           </article>
         </div>
       </section>
-    </section>
+    </SectionLayout>
   );
 };
 

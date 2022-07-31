@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import { productData } from "../../../data/productData";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const PopularProductsSection = () => {
   function SampleNextArrow({ onClick }) {
@@ -86,7 +87,7 @@ const PopularProductsSection = () => {
     ],
   };
   return (
-    <section className=" mt-24 lg:mt-44 mb-8 relative">
+    <SectionLayout x={true} y={true}>
       <article className="flex flex-col items-center justify-center text-center mb-12">
         <h6 className="text-secondary text-sm lg:text-lg font-bold mb-2">
           Product
@@ -117,7 +118,7 @@ const PopularProductsSection = () => {
           ))}
         </Slider>
       </div>
-    </section>
+    </SectionLayout>
   );
 };
 

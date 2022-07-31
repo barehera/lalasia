@@ -7,24 +7,19 @@ import ProductInfoSection from "../components/Home/4-ProductInfoSection/ProductI
 import TestimonialsSection from "../components/Home/5-TestimonialsSection/TestimonialsSection";
 import ArticlesSection from "../components/Home/6-ArticlesSection/ArticlesSection";
 import DiscountSection from "../components/Home/7-DiscountSection/DiscountSection";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import PageLayout from "../components/layouts/PageLayout";
 
 const Home = () => {
   return (
-    <>
-      <Header></Header>
-      <main className="max-w-[120rem] mx-auto">
-        <HeroSection></HeroSection>
-        <BenefitsSection></BenefitsSection>
-        <PopularProductsSection></PopularProductsSection>
-        <ProductInfoSection></ProductInfoSection>
-        <TestimonialsSection></TestimonialsSection>
-        <ArticlesSection></ArticlesSection>
-        <DiscountSection></DiscountSection>
-      </main>
-      <Footer></Footer>
-    </>
+    <PageLayout>
+      <HeroSection></HeroSection>
+      <BenefitsSection></BenefitsSection>
+      <PopularProductsSection></PopularProductsSection>
+      <ProductInfoSection></ProductInfoSection>
+      <TestimonialsSection></TestimonialsSection>
+      <ArticlesSection></ArticlesSection>
+      <DiscountSection></DiscountSection>
+    </PageLayout>
   );
 };
 

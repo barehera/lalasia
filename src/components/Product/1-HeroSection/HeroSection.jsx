@@ -6,6 +6,7 @@ import productLargeBg from "../../../assets/product-large-bg-desktop.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import HeroSectionSliderCard from "./UI/HeroSectionSliderCard";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const HeroSection = () => {
   function SampleNextArrow({ onClick }) {
@@ -46,7 +47,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="mt-24 lg:mt-24">
+    <SectionLayout x={false} y={true}>
       <article className="flex flex-col items-center justify-center text-center mb-7 lg:mb-12 px-6 lg:px-24">
         <h1 className="text-text text-2xl lg:text-5xl font-bold mb-5">
           Products
@@ -65,7 +66,7 @@ const HeroSection = () => {
       {/*<Slider {...settings}>
         
       </Slider> */}
-    </section>
+    </SectionLayout>
   );
 };
 

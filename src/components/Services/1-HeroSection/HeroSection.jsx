@@ -1,8 +1,9 @@
 import React from "react";
 import mainImage from "../../../assets/services-main.png";
+import SectionLayout from "../../layouts/SectionLayout";
 const HeroSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-24">
+    <SectionLayout x={true} y={true}>
       <article className="flex flex-col text-center items-center justify-center">
         <h1 className="text-text text-2xl lg:text-5xl font-bold mb-5">
           Services
@@ -17,7 +18,7 @@ const HeroSection = () => {
           className="w-full h-[200px] lg:h-[550px] object-cover"
         />
       </article>
-    </section>
+    </SectionLayout>
   );
 };
 

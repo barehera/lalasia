@@ -3,10 +3,11 @@ import MissionCard from "./UI/MissionCard";
 import mission1 from "../../../assets/icons/mission-1.svg";
 import mission2 from "../../../assets/icons/mission-2.svg";
 import mission3 from "../../../assets/icons/mission-3.svg";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const OurMissionSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <div className="grid lg:grid-cols-2 gap-10 lg:gap-24">
         <article>
           <h5 className="text-secondary text-sm lg:text-lg font-bold mb-2 lg:mb-3">
@@ -52,7 +53,7 @@ const OurMissionSection = () => {
           ></MissionCard>
         </div>
       </div>
-    </section>
+    </SectionLayout>
   );
 };
 

@@ -6,10 +6,11 @@ import member3 from "../../../assets/member-3.png";
 import member4 from "../../../assets/member-4.png";
 import member5 from "../../../assets/member-5.png";
 import member6 from "../../../assets/member-6.png";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const OurTeam = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <article className="grid lg:grid-cols-2 items-end gap-3 lg:gap-44 mb-7 lg:mb-12">
         <div>
           <h5 className="text-secondary text-sm lg:text-lg font-bold mb-2 lg:mb-3">
@@ -56,7 +57,7 @@ const OurTeam = () => {
           image={member6}
         ></TeamMemberCard>
       </section>
-    </section>
+    </SectionLayout>
   );
 };
 

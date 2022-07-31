@@ -2,9 +2,10 @@ import React from "react";
 
 import article1 from "../../../assets/article-detail-image-1.png";
 import article2 from "../../../assets/article-detail-image-2.png";
+import SectionLayout from "../../layouts/SectionLayout";
 const ArticleTextSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-12">
+    <SectionLayout x={true} y={true}>
       <article className="grid lg:grid-cols-2  gap-4 lg:gap-10">
         <div className="text-paragraph text-sm lg:text-lg flex flex-col  gap-4 lg:gap-10 tracking-widest">
           <p>
@@ -112,7 +113,7 @@ const ArticleTextSection = () => {
           </p>
         </div>
       </article>
-    </section>
+    </SectionLayout>
   );
 };
 

@@ -1,8 +1,9 @@
 import React from "react";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const DiscountSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44 mb-24">
+    <SectionLayout x={true} y={true}>
       <article className="flex flex-col lg:flex-row lg:justify-between lg:items-center">
         <h2 className="text-text text-2xl lg:text-5xl font-bold mb-4 lg:mb-0">
           Join with me to get special discount
@@ -11,7 +12,7 @@ const DiscountSection = () => {
           Learn More
         </button>
       </article>
-    </section>
+    </SectionLayout>
   );
 };
 

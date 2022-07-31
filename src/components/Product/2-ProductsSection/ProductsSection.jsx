@@ -3,12 +3,13 @@ import ProductCard from "./UI/ProductCard";
 import Pagination from "./UI/Pagination";
 import Search from "./UI/Search";
 import { productData } from "../../../data/productData";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const ProductsSection = () => {
   return (
-    <section>
+    <SectionLayout x={true} y={true}>
       <Search></Search>
-      <section className="px-6 lg:px-26">
+      <div>
         <div className="flex gap-2 items-center">
           <h5 className="text-text text-lg font-bold">Total Products</h5>
           <p className="text-main text-xs font-bold p-2 bg-gray-100 rounded-full w-10 flex items-center justify-center">
@@ -31,8 +32,8 @@ const ProductsSection = () => {
         <div className="flex items-center justify-center mt-8 lg:mt-20 mb-24">
           <Pagination></Pagination>
         </div>
-      </section>
-    </section>
+      </div>
+    </SectionLayout>
   );
 };
 

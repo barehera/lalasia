@@ -1,10 +1,11 @@
 import React from "react";
 import { dailyNewArticlesData } from "../../../data/dailyNewArticles";
+import SectionLayout from "../../layouts/SectionLayout";
 import DailyNewsArticleCard from "./UI/DailyNewsArticleCard";
 
 const DailyNewsSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <article>
         <h5 className="text-secondary text-sm lg:text-lg font-bold mb-3">
           Daily News
@@ -21,7 +22,7 @@ const DailyNewsSection = () => {
           ></DailyNewsArticleCard>
         ))}
       </section>
-    </section>
+    </SectionLayout>
   );
 };
 

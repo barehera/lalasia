@@ -1,9 +1,10 @@
 import React from "react";
 import aboutUsMain from "../../../assets/about-us-main.png";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const HeroSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-24">
+    <SectionLayout x={true} y={true}>
       <article className="flex flex-col items-center justify-center">
         <h1 className="text-text text-2xl lg:text-5xl font-bold mb-5">
           About Us
@@ -18,7 +19,7 @@ const HeroSection = () => {
           className="h-[150px] md:h-[250px] lg:h-[550px] w-full object-cover"
         />
       </article>
-    </section>
+    </SectionLayout>
   );
 };
 

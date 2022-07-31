@@ -7,6 +7,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import TestimonialCard from "./UI/TestimonialCard";
 import user2 from "../../../assets/testimonial-user-2.png";
 import user1 from "../../../assets/testimonial-user-1.png";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const TestimonialsSection = () => {
   function SampleNextArrow({ onClick }) {
@@ -99,7 +100,7 @@ const TestimonialsSection = () => {
     ],
   };
   return (
-    <section className="mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <article className="flex flex-col items-center justify-center text-center mb-12">
         <h6 className="text-secondary text-sm lg:text-lg font-bold mb-2">
           Testimonials
@@ -144,7 +145,7 @@ const TestimonialsSection = () => {
           ></TestimonialCard>
         </Slider>
       </div>
-    </section>
+    </SectionLayout>
   );
 };
 

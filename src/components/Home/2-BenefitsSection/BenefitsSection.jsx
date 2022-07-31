@@ -2,10 +2,11 @@ import React from "react";
 import benefit1 from "../../../assets/icons/benefit-1.svg";
 import benefit2 from "../../../assets/icons/benefit-2.svg";
 import benefit3 from "../../../assets/icons/benefit-3.svg";
+import SectionLayout from "../../layouts/SectionLayout";
 import BenefitCard from "./UI/BenefitCard";
 const BenefitsSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <article className="mb-5 lg:mb-12 grid lg:grid-cols-3 items-center lg:gap-7">
         <div className=" mb-4 lg:col-span-2">
           <h6 className="text-secondary text-sm font-bold mb-2">Benefits</h6>
@@ -38,7 +39,7 @@ const BenefitsSection = () => {
           icon={benefit3}
         ></BenefitCard>
       </div>
-    </section>
+    </SectionLayout>
   );
 };
 

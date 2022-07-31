@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import ProductInfo from "../components/DetailProduct/1-ProductInfo/ProductInfo";
 import RelatedItems from "../components/DetailProduct/2-RelatedItemsSection/RelatedItems";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import PageLayout from "../components/layouts/PageLayout";
 
 const DetailProduct = () => {
   useEffect(() => {
@@ -10,14 +9,10 @@ const DetailProduct = () => {
   }, []);
 
   return (
-    <>
-      <Header></Header>
-      <main className="max-w-[120rem] mx-auto">
-        <ProductInfo></ProductInfo>
-        <RelatedItems></RelatedItems>
-      </main>
-      <Footer></Footer>
-    </>
+    <PageLayout>
+      <ProductInfo></ProductInfo>
+      <RelatedItems></RelatedItems>
+    </PageLayout>
   );
 };
 

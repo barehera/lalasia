@@ -1,10 +1,11 @@
 import React from "react";
 import { articleData } from "../../../data/articleData";
+import SectionLayout from "../../layouts/SectionLayout";
 import ArticleCard from "./UI/ArticleCard";
 
 const SimilarTopicSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <article className="flex flex-col items-center justify-center text-center">
         <h5 className="text-secondary text-sm lg:text-lg font-bold mb-3">
           Similar Topics
@@ -27,7 +28,7 @@ const SimilarTopicSection = () => {
           ></ArticleCard>
         ))}
       </section>
-    </section>
+    </SectionLayout>
   );
 };
 

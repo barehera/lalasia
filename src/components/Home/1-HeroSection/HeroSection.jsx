@@ -3,16 +3,17 @@ import mainImage from "../../../assets/hero-section-main-image.png";
 import searchIcon from "../../../assets//icons/search.svg";
 import arrowIcon from "../../../assets/icons/hero-section-arrow.svg";
 import titleIcon from "../../../assets/icons/hero-section-title-icon.svg";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const HeroSection = () => {
   return (
-    <section className="px-6 lg:px-24 relative">
+    <SectionLayout x={true} y={true}>
       <img
         src={arrowIcon}
         alt="Arrow Icon"
         className="absolute hidden lg:block lg:left-auto lg:top-auto "
       />
-      <article className="flex flex-col items-center justify-center my-12 lg:my-24 gap-7">
+      <article className="flex flex-col items-center justify-center mb-24 gap-7">
         <h1 className="text-3xl lg:text-5xl flex flex-col  font-bold text-center  max-w-xl">
           <span>Discover Furniture With</span>
           <span className="relative">
@@ -49,7 +50,7 @@ const HeroSection = () => {
           className="w-full object-contain"
         />
       </article>
-    </section>
+    </SectionLayout>
   );
 };
 

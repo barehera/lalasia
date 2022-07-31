@@ -1,9 +1,10 @@
 import React from "react";
 import articleMain from "../../../assets/article-main.png";
 import articleUser from "../../../assets/article-user-1.png";
+import SectionLayout from "../../layouts/SectionLayout";
 const HeroSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-24">
+    <SectionLayout x={true} y={true}>
       <article className="flex flex-col items-center justify-center text-center">
         <h1 className="text-text text-2xl lg:text-5xl font-bold mb-5">
           Article
@@ -38,7 +39,7 @@ const HeroSection = () => {
           </article>
         </div>
       </article>
-    </section>
+    </SectionLayout>
   );
 };
 

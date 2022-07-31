@@ -8,10 +8,11 @@ import articleUser2 from "../../../assets/article-user-2.png";
 import articleUser3 from "../../../assets/article-user-3.png";
 import ArticleUserCard from "./UI/ArticleUserCard";
 import ArticleSliderCard from "./UI/ArticleSliderCard";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const ArticlesSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <div className="grid  xl:grid-cols-2 gap-7 items-end">
         <div>
           <article>
@@ -64,7 +65,7 @@ const ArticlesSection = () => {
           ></ArticleUserCard>
         </div>
       </div>
-    </section>
+    </SectionLayout>
   );
 };
 

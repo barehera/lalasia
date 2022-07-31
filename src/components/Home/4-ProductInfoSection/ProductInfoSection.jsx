@@ -1,10 +1,11 @@
 import React from "react";
 import ProductImage1 from "../../../assets/product-info-1.png";
 import ProductImage2 from "../../../assets/product-info-2.png";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const ProductInfoSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <article>
         <div className="grid lg:grid-cols-2 items-end mb-4 lg:mb-12">
           {/*Title */}
@@ -73,7 +74,7 @@ const ProductInfoSection = () => {
           />
         </div>
       </article>
-    </section>
+    </SectionLayout>
   );
 };
 

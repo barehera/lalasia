@@ -1,9 +1,10 @@
 import React from "react";
 import mainImage from "../../../assets/article-main-image.png";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const HeroSection = () => {
   return (
-    <section className="px-6 lg:px-24 mt-24">
+    <SectionLayout x={true} y={true}>
       <h1 className="text-text text-2xl lg:text-5xl font-bold text-center mb-5">
         Bedroom Design is the Most Personal Reflection of the Owner, Really?
       </h1>
@@ -17,7 +18,7 @@ const HeroSection = () => {
         alt="Article"
         className="w-full h-[200px] lg:h-[550px] object-cover"
       />
-    </section>
+    </SectionLayout>
   );
 };
 

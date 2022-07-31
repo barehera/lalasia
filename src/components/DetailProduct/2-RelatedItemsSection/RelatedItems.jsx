@@ -3,6 +3,7 @@ import RelatedItemCard from "./UI/RelatedItemCard";
 import { productData } from "../../../data/productData";
 
 import { useLocation } from "react-router-dom";
+import SectionLayout from "../../layouts/SectionLayout";
 
 const RelatedItems = () => {
   const a = useLocation();
@@ -11,7 +12,7 @@ const RelatedItems = () => {
   });
 
   return (
-    <section className="px-6 lg:px-24 mt-24 lg:mt-44">
+    <SectionLayout x={true} y={true}>
       <h3 className="text-text text-lg lg:text-2xl font-bold mb-7">
         Realted Items
       </h3>
@@ -23,7 +24,7 @@ const RelatedItems = () => {
           ></RelatedItemCard>
         ))}
       </section>
-    </section>
+    </SectionLayout>
   );
 };
 
