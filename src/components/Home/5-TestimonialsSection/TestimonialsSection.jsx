@@ -100,7 +100,7 @@ const TestimonialsSection = () => {
     ],
   };
   return (
-    <SectionLayout x={true} y={true}>
+    <SectionLayout x={false} y={true}>
       <article className="flex flex-col items-center justify-center text-center mb-12">
         <h6 className="text-secondary text-sm lg:text-lg font-bold mb-2">
           Testimonials
