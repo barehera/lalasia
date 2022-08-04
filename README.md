@@ -1,5 +1,4 @@
-Project Start Date:
-15.07.2022
+Figma Layout to fully responsive and pixel-perfect React.js web application.
 
 Website Link:
 https://lalasia.vercel.app/
@@ -15,6 +14,3 @@ Converted Pages:
 - Article Page (22.07.2022)
 - Single Product Page (23.07.2022)
 - Single Article Page (24.07.2022)
-
-Project Finish Date:
-24.07.2022
