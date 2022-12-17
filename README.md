@@ -1,4 +1,4 @@
-Fully responsive and pixel-perfect React.js web application using Figma Layout.
+Fully responsive and pixel-perfect website built with ReactJS and Tailwind CSS using Figma Design.
 
 Website Link:
 https://lalasia.vercel.app/
